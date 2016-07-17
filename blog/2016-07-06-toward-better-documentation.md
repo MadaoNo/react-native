@@ -1,6 +1,7 @@
 ---
 title: Toward Better Documentation
 author: Kevin Lacker
+authorURL: https://twitter.com/lacker
 ---
 
 Part of having a great developer experience is having great documentation. A lot goes into creating good docs - the ideal documentation is concise, helpful, accurate, complete, and delightful. Recently we've been working hard to make the docs better based on your feedback, and we wanted to share some of the improvements we've made.
@@ -33,7 +34,7 @@ AppRegistry.registerComponent('ScratchPad', () => ScratchPad);
 
 We think these inline examples, using the [`react-native-web-player`](https://github.com/dabbott/react-native-web-player) module with help from [Devin Abbott](https://twitter.com/devinaabbott), are a great way to learn the basics of React Native, and we have updated our [tutorial for new React Native developers](/react-native/docs/tutorial.html) to use these wherever possible. Check it out - if you have ever been curious to see what would happen if you modified just one little bit of sample code, this is a really nice way to poke around. Also, if you're building developer tools and you want to show a live React Native sample on your own site, [`react-native-web-player`](https://github.com/dabbott/react-native-web-player) can make that straightforward.
 
-The core simulation engine is provided by the [react-native-web](https://github.com/necolas/react-native-web) library, which provides a way to display React Native components like `Text` and `View` on the web. Check out [react-native-web](https://github.com/necolas/react-native-web) if you're interested in building mobile and web experiences that share a large chunk of the codebase.
+The core simulation engine is provided by [Nicolas Gallagher](https://twitter.com/necolas)'s [`react-native-web`](https://github.com/necolas/react-native-web) project, which provides a way to display React Native components like `Text` and `View` on the web. Check out [`react-native-web`](https://github.com/necolas/react-native-web) if you're interested in building mobile and web experiences that share a large chunk of the codebase.
 
 ## Better Guides
 
@@ -43,7 +44,7 @@ We have a new [guide to Navigation](/react-native/docs/navigator-comparison.html
 
 We also have a new [guide to handling touches](/react-native/docs/handling-touches.html) that explains some of the basics of making button-like interfaces, and a brief summary of the different ways to handle touch events.
 
-Another area we worked on is Flexbox. This includes tutorials on how to [handle layout with Flexbox](/react-native/docs/flexbox.html) and how to control [the size of components](/react-native/docs/height-and-width.html). It also includes an unsexy but hopefully-useful (list of all the props that control layout in React Native)[/react-native/docs/layout-props.html].
+Another area we worked on is Flexbox. This includes tutorials on how to [handle layout with Flexbox](/react-native/docs/flexbox.html) and how to control [the size of components](/react-native/docs/height-and-width.html). It also includes an unsexy but hopefully-useful [list of all the props that control layout in React Native](/react-native/docs/layout-props.html).
 
 ## Getting Started
 
@@ -59,6 +60,6 @@ Your feedback lets us know what we should prioritize. I know some people will re
 
 If you find a mistake in the documentation, like inaccurate descriptions or code that doesn't actually work, [file an issue](https://github.com/facebook/react-native/issues). Tag it with "Documentation", so that it's easier to route it to the right people.
 
-If there isn't a specific mistake, but something in the documentation is fundamentally confusing, it's not a great fit for a GitHub issue. Instead, complain on [Product Pains](https://productpains.com/react-native/) about the area of the docs that could use help. This helps us prioritize when we are doing more general work like guide-writing.
+If there isn't a specific mistake, but something in the documentation is fundamentally confusing, it's not a great fit for a GitHub issue. Instead, complain on [Product Pains](https://productpains.com/product/react-native/) about the area of the docs that could use help. This helps us prioritize when we are doing more general work like guide-writing.
 
 Thanks for reading this far, and thanks for using React Native!
